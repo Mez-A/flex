@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    background-color: bisque;
+    justify-content: space-between;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    /* color: black; */
+    flex-basis: 50%; /*Width*/
+    list-style: none;
+}
+
+.logo {
+    background-color: blue;
+    width: 30%;
+    text-align: center;
+}
+
+.logo h1 {   
+    width: 100%;
+    background-color: brown;
+}
